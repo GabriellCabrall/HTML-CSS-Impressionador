@@ -1,7 +1,28 @@
+/* Tags, IDs e Classes */
+
+/* Tag */
 p {
-  font-size: 45px;
+  font-size: 16px;
 }
 
 h1 {
   color: orange;
+}
+
+/* ID */
+#segundo-paragrafo,
+#primeiro-paragrafo,
+#terceiro-paragrafo {
+  font-size: 24px;
+}
+
+/* Classe */
+.paragrafo-bloco1 {
+  font-size: 24px;
+
+}
+
+.paragrafo-bloco2 {
+  font-size: 28px;
+  color: red;
 }
