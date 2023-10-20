@@ -37,6 +37,10 @@ strong {
   text-decoration: none;
 }
 
+.realce-semibold {
+  font-weight: 600;
+}
+
 /* Cabeçalho */
 
 .item-lista-cabecalho a {
@@ -111,10 +115,6 @@ strong {
 
 /* Seção o que falam */
 
-.oquefalam-realce {
-  font-weight: 600;
-}
-
 /* Seção Blog */
 
 .blog-postadoem {
@@ -139,10 +139,6 @@ strong {
 
 /* Seção como ajudar */
 
-.comoajudar-realce {
-  font-weight: 600;
-}
-
 .comoajudar-lista,
 .comoajudar-paragrafo {
   font-size: 19px;
@@ -156,4 +152,25 @@ strong {
 
 .comoajudar-paragrafo b {
   font-weight: 600;
+}
+
+/* Rodapé */
+
+.rodape-titulo {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.rodape-subtitulo {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rodape-seg-subtitulo {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.rodape-link {
+  color: #1a77a4;
 }
