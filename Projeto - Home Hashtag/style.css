@@ -114,3 +114,25 @@ strong {
 .oquefalam-realce {
   font-weight: 600;
 }
+
+/* Seção Blog */
+
+.blog-postadoem {
+  font-size: 15px;
+}
+
+.blog-postadoem a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #f7a70c;
+}
+
+.blog-titulopost {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-descricaopost {
+  font-size: 17px;
+}
