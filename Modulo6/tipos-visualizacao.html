@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Visualização</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+        height: 5rem;
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+      /* 
+      Block
+      Ocupa todo o espaço horizontal
+      Quebra linhas
+      Box model se aplica
+      Padding e margin funcionam normalmente
+      */
+
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        display: block;
+        font-size: 1.6rem;
+      }
+
+      /* Inline
+      Ocupa apenas o espaço do conteúdo
+      Não quebra linha (fica lado a lado)
+      Box Model NÃO se aplica
+      Padding e margin só funcionam na horizontal */
+
+      /* Inline-block
+      Ocupa apenas o espaço do conteúdo
+      Não quebra linha (fica lado a lado)
+      Box Model se aplica
+      Padding e margin funcionam normalmente */
+
+      a {
+        display: inline-block;
+        font-size: 1.6rem;
+        height: 5rem;
+        margin: 2rem;
+      }
+
+      span {
+        display: none;
+        font-style: italic;
+        color: red;
+      }
+    </style>
+
+    <div>
+      <h1>Meu título</h1>
+      <h1>Meu título</h1>
+      <h2>Meu subtítulo</h2>
+      <a href="">Acesse meu site</a>
+      <a href="">Acesse meu site</a>
+      <p>
+        Lorem ipsum dolor sit amet <b>consectetur adipisicing elit</b>. Sit,
+        eius. Dolores unde rem placeat at ipsa debitis repellat nam aliquam
+        molestiae sequi
+        <span>recuslaudantium temporibus ad, repellendus nihil</span>ndus nihil
+        id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+        dolorum voluptatibus laborum quas magnam ipsam labore earum fugiat rem,
+        reiciendis esse, accusamus minima ipsa libero accusantium dolorem itaque
+        sint hic.
+      </p>
+    </div>
+  </body>
+</html>
